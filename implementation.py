@@ -44,7 +44,7 @@ for i in studs:
     i.StudSubjects.extend(random_subs)
 
 print(studs)
-# ########Student name whos initial letter is a#####################
+# ########Student name whose initial letter is a#####################
 def get_stud_with_initial(initial):
     for i in studs:
         if i.StudName[0]== initial:
@@ -86,6 +86,6 @@ def get_stud_list_wtih_greater(marks1):
     for i in studs:
         if i.StudMar>marks1:
             stud_list2.append(i.StudName)
-    print("Student who has marks greater than 50: ",stud_list2)
+    print(f"Student who has marks greater than {marks1}: ",stud_list2)
 get_stud_list_wtih_greater(50)
-
+get_stud_list_wtih_greater(90)
