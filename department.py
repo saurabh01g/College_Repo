@@ -8,6 +8,14 @@ class Department(BaseClass):
         self.Studs = []
         
 
+class Student():
+    def set_name(self,nm):
+        Name = nm
+        return Name
+
+s = Student()
+
+print(s.set_name("vikas"))
 
 
 
